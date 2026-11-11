@@ -1,0 +1,125 @@
+============================================
+BASWABILE MOBILE BARS - IMAGE PLACEMENT GUIDE
+============================================
+
+This guide shows you exactly where to place your business images.
+
+FOLDER STRUCTURE:
+-----------------
+images/
+├── logo.png              ← Your business logo
+├── hero.jpg              ← (Optional) Hero background image
+├── about.jpg             ← About section image
+├── cocktail.jpg          ← Cocktail bar service image
+├── champagne.jpg         ← Champagne bar service image
+├── snack.jpg             ← Snack bar service image
+├── makeup.jpg            ← Make-up & installation service image
+└── gallery/              ← Folder for gallery images
+    ├── event1.jpg
+    ├── event2.jpg
+    ├── event3.jpg
+    └── ... (add as many as you want)
+
+
+REQUIRED IMAGES:
+----------------
+
+1. LOGO (images/logo.png)
+   - Your Baswabile business logo
+   - Recommended: PNG with transparent background
+   - Size: Around 200×200 pixels
+   - Used in: Navigation bar and footer
+
+2. ABOUT IMAGE (images/about.jpg)
+   - A beautiful photo of your mobile bar setup
+   - Size: At least 800×600 pixels
+   - Used in: About section
+
+3. SERVICE IMAGES:
+   
+   images/cocktail.jpg
+   - Photo showcasing cocktail bar service
+   - Size: At least 600×400 pixels
+   
+   images/champagne.jpg
+   - Photo showcasing champagne bar service
+   - Size: At least 600×400 pixels
+   
+   images/snack.jpg
+   - Photo showcasing snack bar setup
+   - Size: At least 600×400 pixels
+   
+   images/makeup.jpg
+   - Photo showcasing make-up services
+   - Size: At least 600×400 pixels
+
+
+OPTIONAL IMAGES:
+----------------
+
+4. HERO BACKGROUND (images/hero.jpg)
+   - A stunning wide shot of your mobile bar
+   - Size: 1920×1080 pixels or larger
+   - Used as: Hero section background
+   - Note: Currently using a default background
+
+
+GALLERY IMAGES:
+---------------
+
+5. GALLERY PHOTOS (images/gallery/)
+   - Add multiple event photos showing:
+     * Mobile bar setups
+     * Cocktail preparation
+     * Event celebrations
+     * Your services in action
+   
+   - Name them clearly: event1.jpg, event2.jpg, cocktail1.jpg, etc.
+   - Size: At least 800×600 pixels each
+   - Format: JPG or PNG
+
+
+HOW TO UPDATE THE GALLERY:
+--------------------------
+
+After adding images to images/gallery/, open js/script.js and update this section:
+
+const galleryImages = [
+    { src: 'images/gallery/event1.jpg', category: 'mobile-bars', alt: 'Beautiful bar setup' },
+    { src: 'images/gallery/event2.jpg', category: 'cocktails', alt: 'Cocktail service' },
+    { src: 'images/gallery/event3.jpg', category: 'events', alt: 'Wedding celebration' },
+    // Add more of your images here...
+];
+
+CATEGORIES:
+- 'mobile-bars' → For bar setup photos
+- 'cocktails' → For cocktail/drink photos
+- 'events' → For complete event photos
+
+
+IMAGE TIPS:
+-----------
+
+✓ Use high-quality, well-lit photos
+✓ Show your actual work and setups
+✓ Compress images before uploading (use tinypng.com or similar)
+✓ Use JPG for photos, PNG for graphics/logo
+✓ Keep file sizes under 2MB for fast loading
+✓ Make sure images are horizontal (landscape) for best display
+
+
+WHAT IF I DON'T HAVE AN IMAGE?
+-------------------------------
+
+Don't worry! The website has fallback placeholder images.
+However, using YOUR actual business photos will make the site
+much more authentic and professional.
+
+
+NEED HELP?
+----------
+
+If you're unsure about anything, contact your web developer
+or refer to the README.md file for more details.
+
+============================================

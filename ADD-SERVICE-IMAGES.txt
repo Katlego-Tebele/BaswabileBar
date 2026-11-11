@@ -1,0 +1,77 @@
+============================================
+ADD SERVICE IMAGES TO YOUR WEBSITE
+============================================
+
+To complete your website, add these 4 service images to the "images" folder:
+
+MISSING IMAGES:
+--------------
+
+1. images/cocktail.jpg
+   - A photo of your cocktail bar service
+   - Show cocktails being prepared or served
+   - Size: At least 600×400 pixels
+
+2. images/champagne.jpg
+   - A photo of your champagne bar setup
+   - Show champagne glasses or service
+   - Size: At least 600×400 pixels
+
+3. images/snack.jpg
+   - A photo of your snack bar
+   - Show food presentation or snack display
+   - Size: At least 600×400 pixels
+
+4. images/makeup.jpg
+   - A photo of your make-up services
+   - Show make-up work or installation
+   - Size: At least 600×400 pixels
+
+
+CURRENT STATUS:
+--------------
+✅ Logo - Working (images/logo.png)
+✅ About image - Working (images/about.jpg)
+✅ Gallery images - Working (g1-g5 in gallery folder)
+❌ Service images - Need to be added
+
+The website will display elegant placeholder graphics until 
+you add the actual service photos.
+
+
+HOW TO ADD THEM:
+---------------
+
+1. Take or select 4 photos showing each service
+2. Rename them to:
+   - cocktail.jpg
+   - champagne.jpg
+   - snack.jpg
+   - makeup.jpg
+
+3. Place them in the "images" folder (not the gallery folder)
+
+4. Refresh your website - the images will appear automatically!
+
+
+TIP:
+----
+You can use photos from your gallery folder if they show these services.
+Just copy and rename them:
+
+Example:
+- Copy g1.png → rename to cocktail.jpg
+- Copy g2.png → rename to champagne.jpg
+- And so on...
+
+
+BACKGROUND IMAGE (Optional):
+---------------------------
+If you have a great photo you want as the homepage background:
+- Name it: background.jpg or Background.png
+- Place it in: images/gallery/
+- The site will use it automatically
+
+Currently using an elegant navy blue gradient background.
+
+============================================

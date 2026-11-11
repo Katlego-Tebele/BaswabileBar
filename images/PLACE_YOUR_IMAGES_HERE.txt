@@ -1,0 +1,18 @@
+📸 PLACE YOUR BUSINESS IMAGES IN THIS FOLDER
+
+Required files:
+---------------
+✓ logo.png - Your business logo
+✓ about.jpg - About section image  
+✓ cocktail.jpg - Cocktail bar service
+✓ champagne.jpg - Champagne bar service
+✓ snack.jpg - Snack bar service
+✓ makeup.jpg - Make-up service
+
+Optional:
+---------
+• hero.jpg - Hero section background (optional)
+
+Gallery images go in the 'gallery' subfolder below.
+
+See IMAGE-GUIDE.txt in the main folder for detailed instructions.

@@ -1,0 +1,11 @@
+📸 PLACE YOUR EVENT GALLERY IMAGES IN THIS FOLDER
+
+Add photos of:
+- Mobile bar setups
+- Cocktail services
+- Event celebrations
+- Your beautiful work
+
+Then update the gallery array in js/script.js to include your images.
+
+See IMAGE-GUIDE.txt in the main folder for detailed instructions.
